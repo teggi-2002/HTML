@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <center><u>
+            <h1>
+                <font color="Red">Student Registration Form</font>
+            </h1>
+        </u></center>
+    <hr>
+    <form action="">
+        <fieldset>
+            <table bgcolor="pink" width="100%">
+                <tr>
+                    <td>
+                        <label for="fn">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fn" placeholder="Firstname" required minlength="2" maxlength="15">(max 15
+                        Charecters a-z & A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ln">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="ln" placeholder="Lastname" required minlength="0" maxlength="10">(max 10
+                        Charecters a-z & A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="DOB">Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="datetime-local" id="DOB" placeholder="DOB" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email-id</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" placeholder="@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num">Mobile Number</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="num" placeholder="10 digit numbers" required maxlength="10">(10 digit
+                        number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="add">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="add" required placeholder="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="City">City</label>
+                    </td>
+                    <td>
+                        <input type="text" id="City" placeholder="district name" required maxlength="10">(max 10
+                        Charecters a-z & A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pin">PIN CODE</label>
+                    </td>
+                    <td>
+                        <input type="number" id="pin" placeholder="6-digit number" required maxlength="6"
+                            minlength="6">(6
+                        digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="st">STATE</label>
+                    </td>
+                    <td>
+                        <input type="text" id="st" placeholder="STATE" required maxlength="30">(max 30 Charecters a-z &
+                        A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="count">COUNTRY</label>
+                    </td>
+                    <td>
+                        <input type="text" id="count" placeholder="INDIA" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Qual">QUALIFICATION</label>
+                    </td>
+                    <td>
+                        <table cellspacing="10px" cellpadding="10px">
+                            <thead>
+                                <tr>
+                                    <th>SL.NO</th>
+                                    <th>EXAMINATION</th>
+                                    <th>BOARD</th>
+                                    <th>PERCENTAGE</th>
+                                    <th>YEAR OF PASSING</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Class X</td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Class XII</td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Graduation</td>
+                                    <td> <input type="text" required maxlength="10"></td>
+                                    <td> <input type="text" required maxlength="10"></td>
+                                    <td> <input type="text" required maxlength="10"></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Masters</td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                    <td>
+                                        <input type="text" required maxlength="10">
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>(10 Char Max)</td>
+                                <td>(upto 2 Decimal)</td>
+                            </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">SUBMIT</button>
+                        <button type="reset">RESET</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

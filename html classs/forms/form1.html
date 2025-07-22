@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center> <h1>Forms</h1></center>
+    <hr>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Details:-</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fn">FirstName</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fn" placeholder="First Name" minlength="2" maxlength="10" required name="Firstname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="abc">LasttName</label>
+                    </td>
+                    <td>
+                        <input type="text" id="abc" placeholder="Last Name" minlength="2" maxlength="10" required name="LastName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Pas">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="Pas" placeholder="Password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="mail" placeholder="Email" required="" name="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sports">sports</label></td>
+                    <td>
+                        <select name="" id="sports">
+                            <option value="Cricket">Cricket</option>
+                            <option value="badminton">badminton</option>
+                            <option value="basketball">basketball</option>
+                            <option value="volleyball" selected>volleyball</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num">Number</label>
+                    </td>
+                    <td>
+                        <input type="number" id="num" placeholder="number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="others">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- month,time,date,date time local,week -->
+                        <label for="date">Date Of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date" id="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="add">Adress</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="add" Required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lang">Languages</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="lang" name="language" value="HTML">HTML 
+                        <input type="checkbox" id="lang" name="language1" value="CSS">CSS 
+                        <input type="checkbox" id="lang" name="language2" value="javascript">javascript
+                        <input type="checkbox" id="lang" name="language3" value="react js">react js 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fruit">Fruits</label>
+                    </td>
+                    <td>
+                        <input type="text" list="fruits" id="fruit">
+                        <datalist id="fruits">
+                            <option value="Apple">Apple</option>
+                            <option value="Avacado">Avacado</option>
+                            <option value="banana">banana</option>
+                            <option value="Mango">Mango</option>
+                            <option value="custard apple">custard apple</option>
+
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">profile</label>
+                    </td>
+                    <td>
+                        <input type="image" src="../saved images/puneeth" height="50px" width="50px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="file">upload the file</label>
+                    </td>
+                    <td>
+                        <input type="file" id="file" name="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="range">Choose the range</label>
+                    </td>
+                    <td>
+                        <input type="range" id="range" name="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="url">Enter the URL</label>
+                    </td>
+                    <td>
+                        <input type="url" id="url" name="url">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sea">Search</label>
+                    </td>
+                    <td>
+                        <input type="search" id="sea" name="search">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="col">colour</label>
+                    </td>
+                    <td>
+                        <input type="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>submit</button>
+                    </td>
+                    <td>
+                        <button>Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
