@@ -1,0 +1,41 @@
+main{
+    height: 800px;
+    width: 100%;
+    background-color:darkkhaki;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#demo1{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#demo2{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#demo3{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#demo4{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

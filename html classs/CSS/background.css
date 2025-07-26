@@ -1,0 +1,31 @@
+body{
+    background-color: goldenrod;
+    background-image: url("https://th.bing.com/th/id/R.397910591eacbd460a77196e11fba51e?rik=Ggcxps8egbyuRA&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1500245804862-0692ee1bbee8%3fixlib%3drb-1.2.1%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax&ehk=KGP72b5FwPK%2biyTETpvp8XCw47628nWyK%2fwvOWLWvUQ%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color:aliceblue;
+}
+div{
+    height:300px;
+    width:300px;
+    background-image:url("https://th.bing.com/th/id/R.35dcdbb4be0a6d6dfb4375fd5962068e?rik=5GKE8%2fcJ6W%2bZvA&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1616781752326-98562e412619%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8NHx8dG91cmlzdCUyMHBsYWNlfHwwfHx8fDE2MTk2OTc5Njc%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=pQuzkT1PJlnhHKp%2b6Dg4NSxxao6UPgPUGfYz2MsbkZk%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat:no no-repeat;
+    background-size:300px 300px;
+}
+#demo{
+    height:300px;
+    width:300px;
+    background-image: url("https://images.unsplash.com/photo-1542361641859-c26bb3571dd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwzODAzNjU5fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size:300px 300px;
+}
+
+article{
+    height:300px;
+    background-color:beige;
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.aLSRFBdU5XPjgidRdbbW0AAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"),url("https://tse3.mm.bing.net/th/id/OIP.SusVtNphrBRB3lxda4fJegHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"),url("https://tse4.mm.bing.net/th/id/OIP.9_Wb78STDHno_4HszIkGzwHaL0?rs=1&pid=ImgDetMain&o=7&rm=3"),url("https://tse2.mm.bing.net/th/id/OIP.DXpfdma9pLINNnp6PpKK2wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-size:250px 200px;
+    background-position: 10px 50px,300px 50px,600px 50px,900px 50px;
+}

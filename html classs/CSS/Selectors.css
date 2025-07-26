@@ -1,0 +1,36 @@
+*{
+    background-color: darkslategray;
+}
+body{
+    background-color: darkmagenta;
+}
+#demo
+{
+    color: crimson;
+    background-color: cadetblue;
+    font-size: 30px;
+}
+#test
+{
+    color: aqua;
+    background-color: bisque;
+    font-size: 30px;
+}
+.meow
+{
+    color: blueviolet;
+    background-color: rgb(220, 195, 243);
+    font-size: 30px;
+}
+h1{
+    background-color: coral;
+}
+#lio{
+    background-color: darkolivegreen;
+}
+.rio{
+    background-color: burlywood;
+}
+h1,#lio,.rio{
+    color:brown;
+}
