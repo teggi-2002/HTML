@@ -34,7 +34,29 @@
             right: 100px;
             bottom:100px;
         }
-        
+        #fixed{
+            height: 200px;
+            width: 200px;
+            background-color: lightgoldenrodyellow;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            border-radius: 50%;
+        }
+        #sticky{
+            height: 200px;
+            width: 200px;
+            background-color: lightpink;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +64,23 @@
     <div id="positions">
         <div id="relative">relative</div>
         <div id="absolute">absolute</div>
+        <div id="fixed">Fixed</div>
+        <div id="sticky">Sticky</div>
     </div>
+    <h1>CSS Positions</h1>
+        <h3><span>CSS positions determine how elements are placed on a webpage. Here are the key position values:
+
+Static: Default positioning. Elements are placed in the normal document flow without any special positioning.
+
+Relative: Positioned relative to its normal position. You can use top, right, bottom, and left to adjust its position.
+
+Absolute: Positioned relative to the nearest positioned ancestor (not static). If no such ancestor exists, it is positioned relative to the document body.
+
+Fixed: Positioned relative to the viewport, meaning it stays in place even when the page is scrolled.
+
+Sticky: A hybrid of relative and fixed. It toggles between relative and fixed based on the scroll position.
+
+Each of these values allows for precise control over layout and design. For more details, you can explore resources like MDN or W3Schools.</span></h3>
+    
 </body>
 </html>
