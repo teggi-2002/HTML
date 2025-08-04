@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(237, 189, 171);
+            position: absolute;
+            left: 450px;
+            top: 150px;
+        }
+
+        #virat {
+            height: 300px;
+            width: 300px;
+            background-color: brown;
+            background-image: url("https://images.assettype.com/thequint/2017-10/29e9cb67-4483-4a74-8e18-c8e92b654941/Virat-century.jpg");
+            background-size: 300px 300px;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            border: 15px solid red;
+
+            transition-property: background-image, border;
+            transition-duration: 5s, 5s;
+            transition-timing-function: linear,linear;
+            transition-delay: 0s, 0s;
+        }
+
+        #virat:hover {
+            /* background-color: red; */
+            background-image: url("https://th.bing.com/th/id/OIP.xfSIs8Fap3NGpdcFVzgMdAHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3");
+            border: 15px solid hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="virat">hello anushka</div>
+</body>
+
+</html>
