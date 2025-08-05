@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #vadapav{
+            height: 300px;
+            width: 300px;
+            background-image: url("https://th.bing.com/th/id/OIP.lFG8iFZJbPGLJpXlMMB4eAHaNL?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3");
+            background-size: 300px 300px;
+            position: absolute;
+            top:150px;
+            left: 480px;
+            background-repeat: no-repeat;
+            /* transition:background-color,width,border-top-right-radius; */
+            /* transition-property: all;
+            transition-duration: 4s;
+            transition-timing-function:linear;
+            transition-delay:1s; */
+            transition:all 5s linear 0.5s;
+        }
+        body{
+            background-color:dimgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #vadapav:hover{
+            background-image: url("https://tse3.mm.bing.net/th/id/OIP.XnWhkfiF5nQPtz9T9n7I3QHaDt?rs=1&pid=ImgDetMain&o=7&rm=3");
+            border-radius: 300px;
+            /* transform:rotate(-360deg)
+            transform:scaleX(2);
+            transform:scaleY(4);
+            transform:translatex(-400px);
+            transform:translatey(-200px);
+            transform:translate(-500px,400px);
+            transform:skewX(80deg);
+            transform:skewY(40deg);
+            transform:skew(40deg,50deg); */
+            transform:translateX(-450px) rotate(360deg);
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="vadapav"> </div>
+</body>
+</html>
