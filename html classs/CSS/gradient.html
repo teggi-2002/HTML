@@ -37,12 +37,44 @@
             background-image: repeating-linear-gradient(to top left, olive 0%, olive 5%, aqua 5%, aqua 10%);
             border: 5px solid black;
         }
+        #radial{
+            height: 300px;
+            width: 400px;
+            background-image:radial-gradient(red 0%,red 10%,black 10%,black 20%,aqua 20%,aqua 40%,yellow 50%,yellow 60%);;
+        }
+        #rradial-gradient{
+            height: 300px;
+            width: 400px;
+            background-image:repeating-radial-gradient(red 0%,red 10%,black 10%,black 20%,aqua 20%,aqua 40%,yellow 50%,yellow 60%);;
+            
+        }
+        #conic-gradient{
+            height: 400px;
+            width: 400px;
+            background-image: conic-gradient(red 0%, red 10%, black 10%, black 20%, aqua 20%, aqua 40%, yellow 50%, yellow 60%);
 
+        }
+        #rconic-gradient {
+            height: 400px;
+            width: 400px;
+            /* background-image: repeating-conic-gradient(red 0%, red 10%, black 10%, black 20%, aqua 20%, aqua 40%, yellow 50%, yellow 60%); */
+            background-image: repeating-conic-gradient(black 0%,black 10%,white 10%,white 20%);
+        }
+        #chakra{
+            height: 133px;
+            width: 133px;
+            background-image: repeating-conic-gradient(blue 0%, blue 2.10%,white 2.10%,white 4.20%);
+            border-radius: 50%;
+            position: absolute;
+            top: 133px;
+            left: 175px;
+        }
         #flag {
             height: 400px;
             width: 500px;
             background-color: blue;
             background-image: linear-gradient(orange 0%, orange 33.1%, white 33.3%, white 66.6%, green 66.7%, green 100%);
+            position: relative;
         }
     </style>
 </head>
@@ -52,13 +84,41 @@
     <hr>
 
     <div id="linear-gradient">
+        <h1><center>linear-gradient</center></h1>
+    </div>
+    <hr>
+    <div id="rlinear-gradient"><h1><center>repeating-linear-gradient</center></h1></div>
+    
+    <hr>
+    <div id="flag">
+        <div id="chakra"> </div>
+    </div>
+    <hr>
+    <div id="radial">
+        <h1><center>radial-gradient</center></h1>
+        <!-- <p>Radial gradients create a circular gradient that transitions from one color to another, radiating outward from a central point. They are defined using the `radial-gradient()` function in CSS.</p>
+        <p>Radial gradients can be used to create effects like sunbursts, glowing buttons, and other circular designs. They can be customized with various color stops to create intricate patterns.</p>
+        <p>Example: `background-image: radial-gradient(red 0%, red 10%, black 10%, black 20%, aqua 20%, aqua 40%, yellow 50%, yellow 60%);`</p> -->
+    </div>
+    <hr>
+    <div id="rradial-gradient">
+        <h1><center>repeating-radial-gradient</center></h1>
+        <!-- <p>Repeating radial gradients are similar to radial gradients but repeat the color stops in a circular pattern. They can be used to create intricate designs and patterns that radiate outward from a central point.</p>
+        <p>Example: `background-image: repeating-radial-gradient(red 0%, red 10%, black 10%, black 20%, aqua 20%, aqua 40%, yellow 50%, yellow 60%);`</p> -->
+    </div>
+    <hr>
+    <div id="conic-gradient">
+        <h1><center>conic-gradient</center></h1>
+        <!-- <p>Conic gradients are a type of gradient that creates a circular pattern, transitioning between colors around a central point. They are defined using the `conic-gradient()` function in CSS.</p>
+        <p>Conic gradients are particularly useful for creating pie charts, circular progress indicators, and other circular designs. They can be customized with various color stops to create intricate patterns.</p>
+        <p>Example: `background-image: conic-gradient(red 0%, red 10%, black 10%, black 20%, aqua 20%, aqua 40%, yellow 50%, yellow 60%);`</p> -->
 
     </div>
     <hr>
-    <div id="rlinear-gradient"></div>
-    <hr>
-    <div id="flag">
-
+    <div id="rconic-gradient">
+        <h1><center>repeating-conic-gradient</center></h1>
+        <!-- <p>Repeating conic gradients are similar to conic gradients but repeat the color stops in a circular pattern. They can be used to create intricate designs and patterns that repeat around a central point.</p>
+        <p>Example: `background-image: repeating-conic-gradient(red 0%, red 10%, black 10%, black 20%, aqua 20%, aqua 40%, yellow 50%, yellow 60%);`</p> -->    
     </div>
 </body>
 
