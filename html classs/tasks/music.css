@@ -33,14 +33,14 @@ main{
 main>h1{
     color:darkred;
     position:absolute;
-    top:150px;
+    top:120px;
     left:100px;
     font-size: 60px;
 }
 main>p{
     color:darkslategray;
     position:absolute;
-    bottom:150px;
+    bottom:100px;
     left:100px;
     width:600px;
     font-size: 20px;
@@ -48,7 +48,7 @@ main>p{
 }
 #btn{
     position:absolute;
-    bottom:100px;
+    bottom:50px;
     left:100px;
 }
 #btn>button{
@@ -66,7 +66,7 @@ main>p{
     background-image: url("../saved images/music");
     background-size: 350px 350px;
     position: absolute;
-    right:100px;
+    right:50px;
     top: 100px;
     border: 5px solid darkgreen;
     border-radius: 50%;

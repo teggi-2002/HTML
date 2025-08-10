@@ -1,0 +1,82 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    color:darkblue;
+    position:relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    animation-name: Box;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Box{
+    /* 0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    75%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(400px);
+    } */
+     /* from{
+        background-color: crimson;
+
+     }
+     to{
+        background-color: darkblue;
+     } */
+     0%{
+        background-color: red;
+        position:relative;
+        top: 0px;
+        right: 0px;
+        border-radius: 50%;
+     }
+     25%{
+        background-color:aqua;
+        position:relative;
+        top: 0px;
+        left: 1000px;
+        border-radius: 50%;
+     }
+     50%{
+        background-color: yellow;
+        position:relative;
+        top:300px;
+        left: 1000px;
+        border-radius: 50%;
+     }
+     75%{
+        background-color: green;
+        position:relative;
+        top: 300px;
+        left: 0px;
+        border-radius: 50%;
+     }
+     100%{
+        background-color: hotpink;
+        position:relative;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+     }
+}
+body{
+    background-image: radial-gradient(circle, purple, violet);
+}

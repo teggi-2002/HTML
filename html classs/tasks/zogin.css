@@ -1,17 +1,21 @@
-nav{
+nav {
     height: 60px;
-    width: 90wh;
-    background-color:midnightblue;
-    color:antiquewhite;
-    display:flex;
+    width: 100%;
+    background-color: transparent; /* fully transparent */
+    color:blue;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute; /* sits on top of background image */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* ensures it's always on top */
 }
 *{
     margin:0;
 }
 a{
-    color:antiquewhite;
+    color:azure;
     text-decoration: none;
 }
 span{
@@ -27,8 +31,9 @@ span{
 }
 #image{
     width: 100%;
-    height: 100%;
-    background-image: url("https://wallup.net/wp-content/uploads/2016/05/13/352249-women-sea-beach-yoga-meditation.jpg");
+    height: 80%;
+    /* background-image: url("https://wallpaperaccess.com/full/1191563.jpg"); */
+    background-image: url("https://wallpaperbat.com/img/177761-yoga-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:scroll;
@@ -39,7 +44,7 @@ span{
     background-size:100% 100%;
 }
 #image>h1{
-    color:navajowhite;
+    color:darkblue;
     position:absolute;
     left:50px;
     top: 100px;
@@ -48,13 +53,14 @@ span{
     font-weight: bolder;
 }
 div>marquee{
-    color: black;
+    color:darkorange;
     position:absolute;
     left:50px;
     top: 220px;
     font-size: 20px;
     width: 600px;
 }
+
 div>p{
     color:black;
     position:absolute;
