@@ -1,51 +1,110 @@
-
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0px;
+    padding:0px;
 }
-
-.navbar {
-    background-color: black;
-    color: white;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    font-family: Arial, sans-serif;
-}
-
-.logo img {
+nav{
     height: 50px;
-    position:absolute;
-    left:680px;
-    top:2.5px;
-
-}
-
-.nav-links {
-    width: 500px;
+    width: 100vw;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-.nav-links li a {
+#content{
+    width: 30%;
+    margin:0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    color:ghostwhite;
     text-decoration: none;
-    color: white;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    transition: color 0.3s;
+    font-size: 20px;
 }
-
-.icons a {
-    color: white;
-    font-size: 18px;
-    margin-left: 15px;
-    transition: color 0.3s;
+#logo{
+    width: 25%;
+    margin:0px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
 }
-
-.icons a:hover {
-    color: gray;
+#icon{
+     width:30%;
+    margin:0px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+#img{
+    height: 500px;
+    width: 100%;
+}
+#head{
+    position: absolute;
+    top:100px;
+    left: 50px;
+    font-size: 30px;
+}
+#btn-1{
+    position:relative;
+    bottom:120px;
+    left: 50px;   
+}
+#btn-1>button{
+    padding:10px 20px;
+    background-color: cornflowerblue;
+    color:ghostwhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn{
+    position:relative;
+    bottom: 50px;
+    left: 425px;  
+}
+#btn>button{
+    padding:10px 30px;
+    background-color:ghostwhite;
+    color:black;
+    border:solid;
+    cursor:pointer;
+}
+#our{
+    position:relative;
+    bottom:50px;
+    left: 50px;
+    font-size: 25px;
+}
+#img-2{
+    position:relative;
+    bottom:20px;
+    left: 30px;
+    border-radius:50%;
+    color:floralwhite;
+}
+#head2{
+   position:relative;
+    bottom:100px;
+    left: 30px;
+    border-radius:50%;
+    color:floralwhite; 
+}
+#GLE{
+    background-color: black;
+    color: azure;
+    width: 800px;
+    height: 100px;
+    position: relative;
+    bottom: 710px;
+    left: 30px;
+}
+#GLE>button{
+    position:relative;
+    top:20px;
+    left: 320px;
+    padding: 10px 30px;
+    color: ghostwhite;
+    background-color: cornflowerblue;
 }
