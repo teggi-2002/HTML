@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid-container{
+            height: 80vh;
+            width: 80vw;
+            background-color:darkblue;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            /* column-gap:5px;
+            row-gap: 5px; */
+            gap: 5px 5px;
+        }
+        body{
+            background-color:chocolate;
+        }
+        #flex-container{
+            height: 100vh;
+            width: 100vw;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .items{
+            background-color:goldenrod;
+
+        }
+        #grid-items1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        #grid-items2{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #grid-items3{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #grid-items4{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #grid-items5{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        #grid-items6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        #grid-items7{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- div#flex-container>div#grid-container>div#grid-items$.items{grid-boxes}*7 -->
+    <div id="flex-container">
+        <div id="grid-container">
+            <div id="grid-items1" class="items">grid-boxes</div>
+            <div id="grid-items2" class="items">grid-boxes</div>
+            <div id="grid-items3" class="items">grid-boxes</div>
+            <div id="grid-items4" class="items">grid-boxes</div>
+            <div id="grid-items5" class="items">grid-boxes</div>
+            <div id="grid-items6" class="items">grid-boxes</div>
+            <div id="grid-items7" class="items">grid-boxes</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
