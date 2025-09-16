@@ -71,4 +71,92 @@ let e=()=>{
 }
 console.log(e())
 
+//IIFE
+function normal1()
+{
+    console.log("what ate yesterday?");
+}
+console.log("anything");
+normal1()
+,
+(function()
+{
+    console.log("yesterday i ate biriyani");
+})
+()
+;
 
+//setting the background color at a time one color
+(function()
+{
+    console.log("click");
+    document.body.style.background='lightpink'
+})()
+;
+(function()
+{
+    console.log("jkhhj");
+})()
+
+//callback function
+function result1(callback,callback1)
+{
+    console.log(callback(10,20))
+    console.log(callback1(4,6))
+}
+function add1(a,b)
+{
+    return a+b;
+}
+function sub1(a,b)
+{
+    return a-b;
+}
+result1(add1,sub1)
+
+//pizza example on callback
+function orderPizza(flavour,owner,callback)
+{
+    console.log("order pizza");
+    console.log("ordered"+flavour+" pizza by "+owner);
+    setTimeout(() => {
+        console.log("pizza is ready");
+        callback(owner)
+    }, 2000);
+}
+
+function eatpizza(x)
+{
+    console.log(x+" eating pizza ");
+}
+orderPizza("cheeze","kiran",eatpizza)
+
+//nested function
+function t()
+{
+    let t=100;
+    function s()
+    {
+        console.log(t);
+    }
+    s()
+}
+t()
+
+
+//nested function 2nd example
+function outer()
+{
+    let count=0;
+    return function inner()
+    {
+        count++
+        console.log(count);
+    }
+}
+let counter=outer();
+counter()
+counter()
+counter()
+counter()
+counter()
