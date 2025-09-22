@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header>nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+header>nav>div:nth-child(1){
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+header>nav>div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+main{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/14/12/09/violin-1906127_1280.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    display:flex;
+    align-items: end;
+}
+
+main>div{
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body>section>div:nth-child(1)
+{
+    height: 200px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+body>section>div:nth-child(1)
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+body>section>div:nth-child(1){
+    height: 200px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body>section>div:nth-child(1){
+    height: 80px;
+    width: 300px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+body>section>div:nth-child(2)
+{
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+body>section>div>p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-between;
+    background-color: black;
+}
+@media screen and (min-width:200px) and (max-width:480px){
+    header>nav>div:nth-child(1){
+        flex-direction: column;
+        align-items: center;
+    }
+    header>nav{
+        height: 100px;
+    }
+    body>section>div>p:nth-child(1){
+        color:browmn;
+        font-size: 20px;
+    }
+}
